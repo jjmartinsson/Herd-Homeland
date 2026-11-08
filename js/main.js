@@ -87,8 +87,8 @@
     function initReveal() {
         if (!('IntersectionObserver' in window)) return;
         var els = $$('.section-eyebrow, .section-heading, .section-intro, .about-content > *, ' +
-                     '.research-questions, .phase, .member, .research-card, .animal, .who, ' +
-                     '.how-list li, .contact-card');
+                     '.aim-statement, .aim-step, .dilemma, .panel, .two-col, .game-mock, .tl, .use, .pull-quote, ' +
+                     '.facts, .member, .who, .how-list li, .contact-card');
         els.forEach(function (el) { el.classList.add('reveal'); });
         var obs = new IntersectionObserver(function (entries) {
             entries.forEach(function (e) {
