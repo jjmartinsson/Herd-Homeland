@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herd &amp; Homeland</title>
+    <meta name="description" content="Herd &amp; Homeland — a research game on animals, ethics and hard choices in wartime Sweden. A Formas-funded project at Linnaeus University and Blekinge Institute of Technology.">
+    <link rel="canonical" href="https://animalsinwar.com/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://animalsinwar.com/">
+    <meta property="og:title" content="Herd &amp; Homeland — Animals, Ethics and Hard Choices in Wartime Sweden">
+    <meta property="og:description" content="A serious game and research project on the ethical dilemmas of animal care when war disrupts normal conditions.">
+    <meta property="og:image" content="https://animalsinwar.com/images/og-image.jpg">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="sv_SE">
+    <meta property="og:site_name" content="Herd &amp; Homeland">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Herd &amp; Homeland — Animals, Ethics and Hard Choices in Wartime Sweden">
+    <meta name="twitter:description" content="A serious game and research project on the ethical dilemmas of animal care when war disrupts normal conditions.">
+    <meta name="twitter:image" content="https://animalsinwar.com/images/og-image.jpg">
+
+    <meta name="keywords" content="Herd and Homeland, animal ethics, animal welfare, civil defence, war preparedness, serious games, Formas, Linnaeus University, BTH">
+    <meta name="author" content="Joel Martinsson, Linnaeus University">
+    <meta name="robots" content="index, follow">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?v=1">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+</head>
+<body>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a href="#home" class="nav-logo">Herd <span class="amp">&amp;</span> Homeland</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active" data-en="Home" data-sv="Hem">Home</a></li>
+                <li><a href="#about" data-en="About" data-sv="Om projektet">About</a></li>
+                <li><a href="#team" data-en="Team" data-sv="Teamet">Team</a></li>
+                <li><a href="#research" data-en="Research" data-sv="Forskning">Research</a></li>
+                <li><a href="contribute.html" data-en="Contribute" data-sv="Medverka">Contribute</a></li>
+            </ul>
+            <div class="nav-right">
+                <button class="lang-switch" id="langSwitch" aria-label="Switch language / Byt språk">
+                    <span class="lang-en active">EN</span>
+                    <span class="lang-sv">SV</span>
+                </button>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <header id="home" class="hero">
+        <div class="hero-bg">
+            <img src="images/hero.jpg" alt="" aria-hidden="true">
+            <div class="hero-shade"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-label">
+                <span class="label-dot"></span>
+                <span data-en="Research Project · 2026–2028" data-sv="Forskningsprojekt · 2026–2028">Research Project · 2026–2028</span>
+            </div>
+            <h1>Herd <span class="amp">&amp;</span> Homeland</h1>
+            <p class="hero-subtitle" data-en="Animals, Ethics and Hard Choices in Wartime Sweden" data-sv="Djur, etik och svåra val i krigets Sverige">Animals, Ethics and Hard Choices in Wartime Sweden</p>
+            <p class="hero-desc" data-en="A serious game and research project on what we owe animals when war disrupts normal care — and how professionals and citizens reason when the welfare of animals collides with human safety, economic survival and the duty to produce food." data-sv="Ett seriöst spel och forskningsprojekt om vad vi är skyldiga djuren när krig stör den normala djurhållningen — och hur yrkesverksamma och medborgare resonerar när djurens välfärd krockar med människors säkerhet, ekonomisk överlevnad och plikten att producera livsmedel.">A serious game and research project on what we owe animals when war disrupts normal care — and how professionals and citizens reason when the welfare of animals collides with human safety, economic survival and the duty to produce food.</p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-ghost" data-en="About the project" data-sv="Om projektet">About the project</a>
+                <a href="contribute.html" class="btn btn-primary" data-en="Share your perspective" data-sv="Dela ditt perspektiv">Share your perspective</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-eyebrow" data-en="About the Project" data-sv="Om projektet">About the Project</div>
+            <h2 class="section-heading" data-en="What is Herd &amp; Homeland?" data-sv="Vad är Herd &amp; Homeland?">What is Herd &amp; Homeland?</h2>
+
+            <div class="about-content">
+                <p class="lead" data-en="Russia's full-scale invasion of Ukraine has exposed ethical dilemmas in animal care that peacetime routines do not prepare us for. When feed, veterinary care and labour run short, animal keepers are forced into decisions without clear answers: continuing to care for the animals may put people at risk, the absence of veterinary care may prolong suffering that cannot be relieved, and a shortage of feed may force a choice about which animals can be kept alive at all." data-sv="Rysslands fullskaliga invasion av Ukraina har blottlagt etiska dilemman i djurhållningen som fredstida rutiner inte förbereder oss för. När foder, veterinärvård och arbetskraft brister tvingas djurhållare till beslut utan tydliga svar: att fortsätta vårda djuren kan utsätta människor för fara, avsaknaden av veterinärvård kan förlänga ett lidande som inte kan lindras, och brist på foder kan tvinga fram ett val om vilka djur som överhuvudtaget kan hållas vid liv.">Russia's full-scale invasion of Ukraine has exposed ethical dilemmas in animal care that peacetime routines do not prepare us for. When feed, veterinary care and labour run short, animal keepers are forced into decisions without clear answers: continuing to care for the animals may put people at risk, the absence of veterinary care may prolong suffering that cannot be relieved, and a shortage of feed may force a choice about which animals can be kept alive at all.</p>
+
+                <p data-en="Yet research on animals during war has focused almost exclusively on keeping food production running, treating animals as production capacity rather than as sentient beings whose welfare becomes the object of genuine moral conflict. This two-year project provides the first systematic mapping of the ethical dilemmas concerning animal care that arise when war disrupts normal conditions, and investigates how professionals and citizens reason about them." data-sv="Ändå har forskningen om djur under krig nästan uteslutande handlat om hur livsmedelsproduktionen ska hållas igång, där djuren behandlas som produktionskapacitet snarare än som kännande varelser vars välfärd blir föremål för verklig moralisk konflikt. Detta tvååriga projekt ger den första systematiska kartläggningen av de etiska dilemman kring djuromsorg som uppstår när krig stör den normala djurhållningen, och undersöker hur yrkesverksamma och medborgare resonerar kring dem.">Yet research on animals during war has focused almost exclusively on keeping food production running, treating animals as production capacity rather than as sentient beings whose welfare becomes the object of genuine moral conflict. This two-year project provides the first systematic mapping of the ethical dilemmas concerning animal care that arise when war disrupts normal conditions, and investigates how professionals and citizens reason about them.</p>
+
+                <p data-en="At the heart of the project is &lt;em&gt;Herd &amp;amp; Homeland&lt;/em&gt;, a serious computer game in which the player acts as an ethical advisor in a crisis command room. Around the table sit stakeholders who represent different interests and present their perspectives as the dilemmas unfold. The player can call in witnesses, ask follow-up questions and weigh their claims against each other before a decision must finally be made — and no decision is without cost." data-sv="Kärnan i projektet är &lt;em&gt;Herd &amp;amp; Homeland&lt;/em&gt;, ett seriöst datorspel där spelaren axlar rollen som etisk rådgivare i ett krisledningsrum. Runt bordet sitter aktörer som företräder olika intressen och ger sina perspektiv allteftersom dilemmana uppstår. Spelaren kan kalla in vittnen, ställa följdfrågor och väga deras anspråk mot varandra innan ett beslut till sist måste fattas — och inget beslut är utan kostnad.">At the heart of the project is <em>Herd &amp; Homeland</em>, a serious computer game in which the player acts as an ethical advisor in a crisis command room. Around the table sit stakeholders who represent different interests and present their perspectives as the dilemmas unfold. The player can call in witnesses, ask follow-up questions and weigh their claims against each other before a decision must finally be made — and no decision is without cost.</p>
+
+                <p data-en="The project is funded by &lt;a href='https://formas.se/en/start-page.html' target='_blank' rel='noopener'&gt;Formas&lt;/a&gt;, the Swedish Research Council for Sustainable Development." data-sv="Projektet finansieras av &lt;a href='https://formas.se' target='_blank' rel='noopener'&gt;Formas&lt;/a&gt;, ett statligt forskningsråd för hållbar utveckling.">The project is funded by <a href="https://formas.se/en/start-page.html" target="_blank" rel="noopener">Formas</a>, the Swedish Research Council for Sustainable Development.</p>
+            </div>
+
+            <div class="research-questions">
+                <h3 data-en="Research Questions" data-sv="Forskningsfrågor">Research Questions</h3>
+                <ol>
+                    <li data-en="What ethical dilemmas concerning animal welfare arise when war disrupts normal animal care?" data-sv="Vilka etiska dilemman kring djurvälfärd uppstår när krig stör den normala djurhållningen?">What ethical dilemmas concerning animal welfare arise when war disrupts normal animal care?</li>
+                    <li data-en="How do key stakeholders in war preparedness prioritize between different values in ethical dilemmas concerning animal welfare?" data-sv="Hur prioriterar centrala aktörer inom krigsberedskapen mellan olika värden i etiska dilemman kring djurvälfärd?">How do key stakeholders in war preparedness prioritize between different values in ethical dilemmas concerning animal welfare?</li>
+                    <li data-en="How do citizens prioritize between different values in ethical dilemmas concerning animal welfare?" data-sv="Hur prioriterar medborgare mellan olika värden i etiska dilemman kring djurvälfärd?">How do citizens prioritize between different values in ethical dilemmas concerning animal welfare?</li>
+                </ol>
+            </div>
+
+            <div class="animals">
+                <h3 data-en="The Full Breadth of Society's Animals" data-sv="Hela bredden av samhällets djur">The Full Breadth of Society's Animals</h3>
+                <p data-en="The dilemmas in the game span every kind of animal a society keeps — from the smallest companion animals to facilities with tens of thousands of animals." data-sv="Dilemmana i spelet täcker alla slags djur som ett samhälle håller — från de minsta sällskapsdjuren till anläggningar med tiotusentals djur.">The dilemmas in the game span every kind of animal a society keeps — from the smallest companion animals to facilities with tens of thousands of animals.</p>
+                <div class="animals-grid">
+                    <div class="animal">
+                        <h4 data-en="Production animals" data-sv="Produktionsdjur">Production animals</h4>
+                        <p data-en="Cattle, pigs, poultry and sheep — and invertebrates such as insects." data-sv="Nötkreatur, grisar, fjäderfä och får — samt ryggradslösa djur som insekter.">Cattle, pigs, poultry and sheep — and invertebrates such as insects.</p>
+                    </div>
+                    <div class="animal">
+                        <h4 data-en="Companion &amp; hobby animals" data-sv="Sällskaps- &amp; hobbydjur">Companion &amp; hobby animals</h4>
+                        <p data-en="Dogs, cats, horses and the animals that share our homes." data-sv="Hundar, katter, hästar och djuren som delar våra hem.">Dogs, cats, horses and the animals that share our homes.</p>
+                    </div>
+                    <div class="animal">
+                        <h4 data-en="Zoos &amp; shelters" data-sv="Djurparker &amp; djurhem">Zoos &amp; shelters</h4>
+                        <p data-en="Animals in zoos, wildlife parks and animal shelters." data-sv="Djur i djurparker och på djurhem.">Animals in zoos, wildlife parks and animal shelters.</p>
+                    </div>
+                    <div class="animal">
+                        <h4 data-en="Service &amp; working animals" data-sv="Tjänste- &amp; arbetsdjur">Service &amp; working animals</h4>
+                        <p data-en="Military, police, rescue and assistance animals." data-sv="Djur inom försvar, polis, räddningstjänst och som assistansdjur.">Military, police, rescue and assistance animals.</p>
+                    </div>
+                    <div class="animal">
+                        <h4 data-en="Semi-domesticated animals" data-sv="Halvdomesticerade djur">Semi-domesticated animals</h4>
+                        <p data-en="Animals such as reindeer and ostriches." data-sv="Djur som renar och strutsar.">Animals such as reindeer and ostriches.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="phases">
+                <h3 class="phases-heading" data-en="Research Phases" data-sv="Forskningsfaser">Research Phases</h3>
+                <div class="phases-track"><div class="phases-progress" style="width: 6%"></div></div>
+                <div class="phases-grid">
+                    <div class="phase current">
+                        <div class="phase-marker"></div>
+                        <div class="phase-number"><span data-en="Phase 1" data-sv="Fas 1">Phase 1</span> <span class="phase-badge" data-en="Current" data-sv="Pågår">Current</span></div>
+                        <div class="phase-time" data-en="Nov 2026 – Mar 2027" data-sv="Nov 2026 – mars 2027">Nov 2026 – Mar 2027</div>
+                        <h4 data-en="Mapping the Dilemmas" data-sv="Kartläggning av dilemmana">Mapping the Dilemmas</h4>
+                        <p data-en="A structured review of research on animal welfare, animal ethics and animal protection during war, together with Swedish legal and preparedness frameworks." data-sv="En strukturerad genomgång av forskning om djurvälfärd, djuretik och djurskydd vid krig, samt av svenska regelverk och beredskapsplaner.">A structured review of research on animal welfare, animal ethics and animal protection during war, together with Swedish legal and preparedness frameworks.</p>
+                    </div>
+                    <div class="phase future">
+                        <div class="phase-marker"></div>
+                        <div class="phase-number" data-en="Phase 2" data-sv="Fas 2">Phase 2</div>
+                        <div class="phase-time" data-en="Mar – Aug 2027" data-sv="Mars – aug 2027">Mar – Aug 2027</div>
+                        <h4 data-en="Workshops with Stakeholders" data-sv="Workshops med aktörer">Workshops with Stakeholders</h4>
+                        <p data-en="Interviews and focus groups with practitioners in animal welfare and war preparedness validate and refine the dilemmas into realistic scenarios." data-sv="Intervjuer och fokusgrupper med aktörer inom djuromsorg, djurskydd och krisberedskap prövar och förfinar dilemmana till realistiska scenarier.">Interviews and focus groups with practitioners in animal welfare and war preparedness validate and refine the dilemmas into realistic scenarios.</p>
+                    </div>
+                    <div class="phase future">
+                        <div class="phase-marker"></div>
+                        <div class="phase-number" data-en="Phase 3" data-sv="Fas 3">Phase 3</div>
+                        <div class="phase-time" data-en="Apr 2027 – Feb 2028" data-sv="April 2027 – feb 2028">Apr 2027 – Feb 2028</div>
+                        <h4 data-en="Building the Game" data-sv="Spelet byggs">Building the Game</h4>
+                        <p data-en="The validated scenarios become the serious game through scenario scripting, design, build and playtesting." data-sv="De prövade scenarierna blir till spelet genom manusarbete, design, utveckling och speltester.">The validated scenarios become the serious game through scenario scripting, design, build and playtesting.</p>
+                    </div>
+                    <div class="phase future">
+                        <div class="phase-marker"></div>
+                        <div class="phase-number" data-en="Phase 4" data-sv="Fas 4">Phase 4</div>
+                        <div class="phase-time" data-en="Feb – Oct 2028" data-sv="Feb – okt 2028">Feb – Oct 2028</div>
+                        <h4 data-en="Release &amp; Data Collection" data-sv="Lansering &amp; datainsamling">Release &amp; Data Collection</h4>
+                        <p data-en="The game is released openly to the public and to stakeholder groups, collecting data on how professionals and citizens reason about the dilemmas." data-sv="Spelet släpps öppet för allmänheten och berörda intressegrupper och samlar in data om hur yrkesverksamma och medborgare resonerar kring dilemmana.">The game is released openly to the public and to stakeholder groups, collecting data on how professionals and citizens reason about the dilemmas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TEAM ===== -->
+    <section id="team" class="section section-dark">
+        <div class="container">
+            <div class="section-eyebrow light" data-en="The Team" data-sv="Teamet">The Team</div>
+            <h2 class="section-heading light" data-en="Researchers &amp; Creators" data-sv="Forskare &amp; skapare">Researchers &amp; Creators</h2>
+            <div class="team-row">
+                <a href="https://joelmartinsson.org" target="_blank" rel="noopener" class="member">
+                    <div class="member-img"><img src="images/joel.webp" alt="Joel Martinsson" loading="lazy"></div>
+                    <h3>Joel Martinsson</h3>
+                    <p class="role" data-en="Principal Investigator · Applied ethics" data-sv="Projektledare · Tillämpad etik">Principal Investigator · Applied ethics</p>
+                    <p class="org" data-en="Linnaeus University" data-sv="Linnéuniversitetet">Linnaeus University</p>
+                </a>
+                <div class="member">
+                    <div class="member-img"><img src="images/daiana.webp" alt="Daiana de Oliveira" loading="lazy"></div>
+                    <h3>Daiana de Oliveira</h3>
+                    <p class="role" data-en="Professor · Farm animal welfare" data-sv="Professor · Lantbruksdjurs välfärd">Professor · Farm animal welfare</p>
+                    <p class="org" data-en="Linnaeus University" data-sv="Linnéuniversitetet">Linnaeus University</p>
+                </div>
+                <div class="member">
+                    <div class="member-img"><img src="images/sirkku.webp" alt="Sirkku Sarenbo" loading="lazy"></div>
+                    <h3>Sirkku Sarenbo</h3>
+                    <p class="role" data-en="Associate Professor · Animal welfare &amp; law" data-sv="Docent · Djurvälfärd &amp; rätt">Associate Professor · Animal welfare &amp; law</p>
+                    <p class="org" data-en="Linnaeus University" data-sv="Linnéuniversitetet">Linnaeus University</p>
+                </div>
+                <a href="https://www.bth.se/om-bth/personer/veronica-sundstedt" target="_blank" rel="noopener" class="member">
+                    <div class="member-img"><img src="images/veronica.webp" alt="Veronica Sundstedt" loading="lazy"></div>
+                    <h3>Veronica Sundstedt</h3>
+                    <p class="role" data-en="Professor · Game research" data-sv="Professor · Spelforskning">Professor · Game research</p>
+                    <p class="org" data-en="Blekinge Institute of Technology" data-sv="Blekinge Tekniska Högskola">Blekinge Institute of Technology</p>
+                </a>
+                <div class="member">
+                    <div class="member-img"><img src="images/ronja.webp" alt="Ronja Henriksson" loading="lazy"></div>
+                    <h3>Ronja Henriksson</h3>
+                    <p class="role" data-en="Lead Game Developer" data-sv="Huvudansvarig spelutvecklare">Lead Game Developer</p>
+                    <p class="org" data-en="Linnaeus University" data-sv="Linnéuniversitetet">Linnaeus University</p>
+                </div>
+            </div>
+            <p class="team-contact" data-en="For questions about the project, please contact PI Joel Martinsson at &lt;a href='mailto:joel.martinsson@lnu.se'&gt;joel.martinsson@lnu.se&lt;/a&gt;." data-sv="För frågor om projektet, kontakta projektledare Joel Martinsson på &lt;a href='mailto:joel.martinsson@lnu.se'&gt;joel.martinsson@lnu.se&lt;/a&gt;.">For questions about the project, please contact PI Joel Martinsson at <a href="mailto:joel.martinsson@lnu.se">joel.martinsson@lnu.se</a>.</p>
+        </div>
+    </section>
+
+    <!-- ===== RESEARCH ===== -->
+    <section id="research" class="section section-alt">
+        <div class="container">
+            <div class="section-eyebrow" data-en="Research" data-sv="Forskning">Research</div>
+            <h2 class="section-heading" data-en="An Open and Lasting Research Platform" data-sv="En öppen och varaktig forskningsplattform">An Open and Lasting Research Platform</h2>
+            <p class="section-intro" data-en="The project unites three knowledge traditions that rarely meet: animal welfare science, on what animals need; ethics and politics, on how competing obligations should be weighed; and game development, as a method for capturing how people reason about these dilemmas." data-sv="Projektet förenar tre kunskapstraditioner som sällan möts: djurvälfärdsvetenskap, om vad djuren behöver; etik och politik, om hur konkurrerande skyldigheter bör vägas; och spelutveckling, som metod för att fånga hur människor resonerar om dessa dilemman.">The project unites three knowledge traditions that rarely meet: animal welfare science, on what animals need; ethics and politics, on how competing obligations should be weighed; and game development, as a method for capturing how people reason about these dilemmas.</p>
+
+            <div class="research-grid">
+                <div class="research-card">
+                    <h3 data-en="Three Functions of the Game" data-sv="Spelets tre funktioner">Three Functions of the Game</h3>
+                    <p data-en="&lt;strong&gt;A pedagogical tool&lt;/strong&gt; that lets stakeholders in war preparedness confront these dilemmas before they arise in practice." data-sv="&lt;strong&gt;Ett pedagogiskt verktyg&lt;/strong&gt; som låter aktörer inom krigsberedskapen möta dilemmana innan de uppstår i praktiken."><strong>A pedagogical tool</strong> that lets stakeholders in war preparedness confront these dilemmas before they arise in practice.</p>
+                    <p data-en="&lt;strong&gt;A research instrument&lt;/strong&gt; that captures the decisions players make." data-sv="&lt;strong&gt;Ett forskningsinstrument&lt;/strong&gt; som fångar de beslut spelarna fattar."><strong>A research instrument</strong> that captures the decisions players make.</p>
+                    <p data-en="&lt;strong&gt;A space for democratic deliberation&lt;/strong&gt; that makes visible how various stakeholders reasoned and why." data-sv="&lt;strong&gt;Ett rum för demokratiska samtal&lt;/strong&gt; som synliggör hur olika aktörer resonerade och varför."><strong>A space for democratic deliberation</strong> that makes visible how various stakeholders reasoned and why.</p>
+                </div>
+                <div class="research-card">
+                    <h3 data-en="Ethical Humility" data-sv="Etisk ödmjukhet">Ethical Humility</h3>
+                    <p data-en="By placing players inside a situation where they must weigh the competing claims of others before deciding, the game aims to foster &lt;em&gt;ethical humility&lt;/em&gt;: the capacity to take seriously perspectives unlike one's own, even where deep disagreement remains." data-sv="Genom att placera spelarna i en situation där de måste väga andras konkurrerande anspråk innan de beslutar vill spelet främja &lt;em&gt;etisk ödmjukhet&lt;/em&gt;: förmågan att ta perspektiv som skiljer sig från ens egna på allvar, även där djup oenighet kvarstår.">By placing players inside a situation where they must weigh the competing claims of others before deciding, the game aims to foster <em>ethical humility</em>: the capacity to take seriously perspectives unlike one's own, even where deep disagreement remains.</p>
+                </div>
+                <div class="research-card">
+                    <h3 data-en="Open Science" data-sv="Öppen vetenskap">Open Science</h3>
+                    <p data-en="The game is released open access, freely playable by anyone. Its scenarios and the anonymised data it generates will be shared in line with the FAIR principles, so that other researchers can build on the platform rather than start from scratch." data-sv="Spelet släpps med öppen tillgång och är fritt att spela för alla. Scenarierna och de avidentifierade data som spelet genererar delas i enlighet med FAIR-principerna, så att andra forskare kan bygga vidare på plattformen i stället för att börja från noll.">The game is released open access, freely playable by anyone. Its scenarios and the anonymised data it generates will be shared in line with the FAIR principles, so that other researchers can build on the platform rather than start from scratch.</p>
+                </div>
+                <div class="research-card">
+                    <h3 data-en="Built to Grow" data-sv="Byggt för att växa">Built to Grow</h3>
+                    <p data-en="The game is built around Swedish conditions but is general enough to be recognised in other countries, opening the way for comparative studies. New versions can take on new dilemmas, new crises — drought, flood, wildfire, disease outbreak, prolonged power failure — and further kinds of animals." data-sv="Spelet är byggt kring svenska förhållanden men är allmänt nog för att kännas igen i andra länder, vilket öppnar för jämförande studier. Nya versioner kan ta sig an nya dilemman, nya kriser — torka, översvämning, skogsbrand, smittutbrott, långvariga strömavbrott — och fler slags djur.">The game is built around Swedish conditions but is general enough to be recognised in other countries, opening the way for comparative studies. New versions can take on new dilemmas, new crises — drought, flood, wildfire, disease outbreak, prolonged power failure — and further kinds of animals.</p>
+                </div>
+            </div>
+
+            <div class="research-coming">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                <p data-en="Publications, presentations, research data and news about the game will be published here as the project progresses." data-sv="Publikationer, presentationer, forskningsdata och nyheter om spelet kommer att publiceras här allteftersom projektet fortskrider.">Publications, presentations, research data and news about the game will be published here as the project progresses.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta-band">
+        <div class="container cta-inner">
+            <div>
+                <h2 data-en="Do you work with animals or preparedness?" data-sv="Arbetar du med djur eller beredskap?">Do you work with animals or preparedness?</h2>
+                <p data-en="Farmers, veterinarians, zoo and shelter staff, animal owners, authorities and civil defence — your experience can help shape the dilemmas in the game." data-sv="Lantbrukare, veterinärer, personal på djurparker och djurhem, djurägare, myndigheter och civilförsvar — dina erfarenheter kan hjälpa till att forma dilemmana i spelet.">Farmers, veterinarians, zoo and shelter staff, animal owners, authorities and civil defence — your experience can help shape the dilemmas in the game.</p>
+            </div>
+            <a href="contribute.html" class="btn btn-primary" data-en="Contribute to the research" data-sv="Bidra till forskningen">Contribute to the research</a>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-col">
+                    <h4 data-en="Contact" data-sv="Kontakt">Contact</h4>
+                    <p>Joel Martinsson</p>
+                    <p><a href="mailto:joel.martinsson@lnu.se">joel.martinsson@lnu.se</a></p>
+                    <p class="footer-address" data-en="Dept. of Political Science&lt;br&gt;Linnaeus University&lt;br&gt;Sweden" data-sv="Institutionen för statsvetenskap&lt;br&gt;Linnéuniversitetet&lt;br&gt;Sverige">Dept. of Political Science<br>Linnaeus University<br>Sweden</p>
+                </div>
+                <div class="footer-col">
+                    <h4 data-en="Institutions" data-sv="Lärosäten">Institutions</h4>
+                    <ul>
+                        <li><a href="https://lnu.se" target="_blank" rel="noopener" data-en="Linnaeus University" data-sv="Linnéuniversitetet">Linnaeus University</a></li>
+                        <li><a href="https://www.bth.se" target="_blank" rel="noopener" data-en="Blekinge Institute of Technology" data-sv="Blekinge Tekniska Högskola">Blekinge Institute of Technology</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 data-en="Sections" data-sv="Sektioner">Sections</h4>
+                    <ul>
+                        <li><a href="#about" data-en="About" data-sv="Om projektet">About</a></li>
+                        <li><a href="#team" data-en="Team" data-sv="Teamet">Team</a></li>
+                        <li><a href="#research" data-en="Research" data-sv="Forskning">Research</a></li>
+                        <li><a href="contribute.html" data-en="Contribute" data-sv="Medverka">Contribute</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="funded-by">
+                <span class="funded-label" data-en="Funded by" data-sv="Finansierat av">Funded by</span>
+                <a href="https://formas.se/en/start-page.html" data-en-href="https://formas.se/en/start-page.html" data-sv-href="https://formas.se" target="_blank" rel="noopener" class="funder-link">
+                    <span class="funder-name">Formas</span>
+                </a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year">2026</span> Herd &amp; Homeland &middot; <a href="https://lnu.se" target="_blank" rel="noopener" data-en="Linnaeus University" data-sv="Linnéuniversitetet">Linnaeus University</a> &middot; <a href="https://www.bth.se" target="_blank" rel="noopener">BTH</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js?v=1"></script>
+</body>
+</html>
