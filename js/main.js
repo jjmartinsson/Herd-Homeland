@@ -87,7 +87,7 @@
     function initReveal() {
         if (!('IntersectionObserver' in window)) return;
         var els = $$('.section-eyebrow, .section-heading, .section-intro, .about-content > *, ' +
-                     '.aim-statement, .aim-step, .dilemma, .panel, .two-col, .game-mock, .tl, .use, .pull-quote, ' +
+                     '.aim-statement, .aim-step, .features li, .qcard, .dilemmas-outro, .game-mock, .step, .use, .pull-quote, ' +
                      '.facts, .member, .who, .how-list li, .contact-card');
         els.forEach(function (el) { el.classList.add('reveal'); });
         var obs = new IntersectionObserver(function (entries) {
