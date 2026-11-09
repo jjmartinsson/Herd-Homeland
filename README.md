@@ -7,8 +7,7 @@ Static site (HTML/CSS/JS, no build step), bilingual EN/SV via `data-en` / `data-
 
 | File | Purpose |
 |------|---------|
-| `index.html` | Home, About, Team, Research |
-| `contribute.html` | Contact page for people who want to contribute their perspective |
+| `index.html` | Home, About, Research (incl. how to contribute), Team |
 | `css/style.css`, `js/main.js` | Styles, language switch, menu |
 | `images/` | Team photos, favicon, hero image (`hero.jpg`), share image (`og-image.jpg`) |
 

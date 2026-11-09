@@ -17,7 +17,8 @@
     --night-muted: #a9bbad;
     --accent:      #3a6b50;   /* moss green */
     --accent-dark: #2a5240;
-    --rust:        #b5532c;   /* the fox / the fire, used sparingly */
+    --rust:        #c89b2c;   /* deep yellow accent for details */
+    --gold-light:  #e3bc4e;
 
     --serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
     --sans:  'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
@@ -202,7 +203,7 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 600; line-height: 1.2; 
     line-height: 1.02;
     margin-bottom: 14px;
 }
-.hero h1 .amp { color: #d9774c; font-style: italic; font-weight: 400; }
+.hero h1 .amp { color: var(--gold-light); font-style: italic; font-weight: 400; }
 .hero-subtitle {
     font-family: var(--serif);
     font-style: italic;
@@ -737,7 +738,7 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 600; line-height: 1.2; 
 
 /* Footer extras */
 .footer-logo { font-family: var(--serif); font-size: 1.5rem; color: #fff; margin-bottom: 10px; }
-.footer-logo .amp { color: #d9774c; font-style: italic; }
+.footer-logo .amp { color: var(--gold-light); font-style: italic; }
 .funder-divider { width: 1px; height: 22px; background: rgba(255,255,255,.2); }
 .inst-name { color: var(--night-text); font-size: .9rem; }
 
@@ -843,3 +844,87 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 600; line-height: 1.2; 
 .research-contact h3 { font-size: 1.5rem; margin-bottom: 10px; }
 .research-contact .title { font-size: 1rem; color: var(--ink-2); max-width: 680px; }
 .contact-buttons { display: flex; flex-wrap: wrap; gap: 12px; }
+
+
+/* =============================================
+   v8 — yellow details, integrated About
+   ============================================= */
+.phase.current .phase-marker { border-color: var(--rust); background: var(--rust); box-shadow: 0 0 0 5px rgba(200,155,44,.22); }
+.phases-progress { background: var(--rust); }
+.phase-badge { background: var(--rust); color: var(--ink); }
+.section-eyebrow::before { background: var(--rust); height: 2px; }
+.btn-primary { background: var(--accent); }
+.member:hover h3 { text-decoration: underline; text-decoration-color: var(--rust); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+
+.key-panel {
+    margin-top: 48px;
+    background: var(--paper-2);
+    border-top: 4px solid var(--rust);
+    padding: 48px 48px 40px;
+}
+.key-text {
+    font-family: var(--serif);
+    font-size: clamp(1.45rem, 2.8vw, 2.05rem);
+    line-height: 1.35;
+    color: var(--ink);
+    max-width: 880px;
+    margin: 0 0 18px;
+    text-wrap: balance;
+}
+.key-text mark {
+    background: linear-gradient(transparent 62%, rgba(200,155,44,.38) 62%);
+    color: inherit;
+    padding: 0 2px;
+}
+.key-sub { color: var(--ink-2); margin: 0 0 40px; max-width: 760px; }
+.key-steps {
+    list-style: none; margin: 0; padding: 0;
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px;
+    position: relative;
+}
+.key-steps::before {
+    content: ''; position: absolute; top: 19px; left: 20px; right: 20px;
+    height: 2px; background: repeating-linear-gradient(90deg, var(--rust) 0 8px, transparent 8px 14px);
+    opacity: .7;
+}
+.key-steps li { position: relative; }
+.key-num {
+    position: relative; z-index: 1;
+    display: inline-grid; place-items: center;
+    width: 40px; height: 40px; border-radius: 50%;
+    background: var(--rust); color: var(--ink);
+    font-family: var(--serif); font-weight: 600; font-size: 1.1rem;
+    box-shadow: 0 0 0 6px var(--paper-2);
+    margin-bottom: 18px;
+}
+.key-steps h3 { font-size: 1.2rem; margin-bottom: 8px; }
+.key-steps p { margin: 0; color: var(--ink-2); font-size: .96rem; }
+.funding-note { margin: 28px 0 0; color: var(--ink-3); font-size: .95rem; }
+
+/* Contribute block under research phases */
+.contribute {
+    margin-top: 72px;
+    display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: 48px;
+    background: var(--paper);
+    border-top: 4px solid var(--rust);
+    padding: 44px 44px 40px;
+}
+.contribute-text h3 { font-size: 1.6rem; margin-bottom: 16px; }
+.contribute-text p { color: var(--ink-2); margin: 0 0 14px; }
+.contribute-card { text-align: center; padding: 8px 0; border-left: 1px solid var(--line); padding-left: 40px; }
+.contribute-card img { width: 140px; height: 140px; border-radius: 50%; object-fit: cover; filter: grayscale(1) brightness(1.04); margin: 0 auto 16px; box-shadow: 0 0 0 4px var(--paper), 0 0 0 6px var(--rust); }
+.contribute-card h4 { font-size: 1.15rem; margin-bottom: 2px; }
+.contribute-card p { margin: 0; color: var(--ink-3); font-size: .9rem; }
+.contribute-card .email { margin: 10px 0 18px; font-family: var(--serif); font-size: 1rem; word-break: break-all; }
+
+@media (max-width: 900px) {
+    .key-steps { grid-template-columns: 1fr; gap: 28px; }
+    .key-steps::before { top: 20px; bottom: 20px; left: 19px; right: auto; width: 2px; height: auto; background: repeating-linear-gradient(180deg, var(--rust) 0 8px, transparent 8px 14px); }
+    .key-steps li { padding-left: 60px; }
+    .key-num { position: absolute; left: 0; top: 0; }
+    .contribute { grid-template-columns: 1fr; }
+    .contribute-card { border-left: 0; padding-left: 0; border-top: 1px solid var(--line); padding-top: 32px; }
+}
+@media (max-width: 600px) {
+    .key-panel, .contribute { padding: 32px 20px 28px; }
+}
