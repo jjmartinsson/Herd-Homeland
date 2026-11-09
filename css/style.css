@@ -820,3 +820,26 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 600; line-height: 1.2; 
     .features { grid-template-columns: 1fr; }
     .steps { grid-template-columns: 1fr; }
 }
+
+/* =============================================
+   v6 — Swedovia-style structure
+   ============================================= */
+.hero-launch {
+    display: inline-block;
+    margin: -10px 0 28px;
+    font-size: .8rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase;
+    color: #b9d6c2;
+    border-left: 2px solid var(--rust);
+    padding-left: 12px;
+}
+.aim-box { margin-top: 64px; padding-top: 48px; border-top: 1px solid var(--line); }
+.aim-box > h3 { font-size: .76rem; font-family: var(--sans); font-weight: 600; letter-spacing: .2em; text-transform: uppercase; color: var(--accent-dark); margin-bottom: 14px; }
+.aim-box .aim-statement { margin-bottom: 48px; }
+.sub-heading:first-of-type { margin-top: 56px; }
+.sub-intro { max-width: 760px; color: var(--ink-2); margin: 0 0 32px; }
+#research .research-card { background: var(--paper); }
+#research .qcard { background: var(--paper); }
+.research-contact { margin-top: 72px; max-width: none; background: var(--paper); align-items: start; }
+.research-contact h3 { font-size: 1.5rem; margin-bottom: 10px; }
+.research-contact .title { font-size: 1rem; color: var(--ink-2); max-width: 680px; }
+.contact-buttons { display: flex; flex-wrap: wrap; gap: 12px; }

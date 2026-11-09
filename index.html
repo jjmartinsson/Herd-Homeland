@@ -30,7 +30,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css?v=5">
+    <link rel="stylesheet" href="css/style.css?v=6">
     <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 <body>
@@ -40,9 +40,9 @@
         <div class="nav-inner">
             <a href="#home" class="nav-logo">Herd <span class="amp">&amp;</span> Homeland</a>
             <ul class="nav-links" id="navLinks">
-                <li><a href="#game" data-en="The Game" data-sv="Spelet">The Game</a></li>
-                <li><a href="#dilemmas" data-en="The Dilemmas" data-sv="Dilemmana">The Dilemmas</a></li>
-                <li><a href="#conversation" data-en="The Conversation" data-sv="Samtalet">The Conversation</a></li>
+                <li><a href="#home" class="active" data-en="Home" data-sv="Hem">Home</a></li>
+                <li><a href="#about" data-en="About" data-sv="Om projektet">About</a></li>
+                <li><a href="#research" data-en="Research" data-sv="Forskning">Research</a></li>
                 <li><a href="#team" data-en="Team" data-sv="Teamet">Team</a></li>
                 <li><a href="contribute.html" data-en="Contribute" data-sv="Medverka">Contribute</a></li>
             </ul>
@@ -67,48 +67,62 @@
         <div class="hero-content">
             <div class="hero-label">
                 <span class="label-dot"></span>
-                <span data-en="A serious game in development · 2026–2028" data-sv="Ett seriöst spel under utveckling · 2026–2028">A serious game in development · 2026–2028</span>
+                <span data-en="Research Project" data-sv="Forskningsprojekt">Research Project</span>
             </div>
             <h1>Herd <span class="amp">&amp;</span> Homeland</h1>
             <p class="hero-subtitle" data-en="Animals, Ethics and Hard Choices in Wartime Sweden" data-sv="Djur, etik och svåra val i krigets Sverige">Animals, Ethics and Hard Choices in Wartime Sweden</p>
-            <p class="hero-desc" data-en="War confronts society with difficult ethical choices concerning animals. Herd &amp;amp; Homeland is a computer game that puts you in the crisis room — and lets us face these choices, and talk about them, before they happen for real." data-sv="Krig ställer samhället inför svåra etiska val som rör djuren. Herd &amp;amp; Homeland är ett datorspel som sätter dig i krisledningsrummet — och låter oss möta valen, och samtala om dem, innan de inträffar på riktigt.">War confronts society with difficult ethical choices concerning animals. Herd &amp; Homeland is a computer game that puts you in the crisis room — and lets us face these choices, and talk about them, before they happen for real.</p>
+            <p class="hero-desc" data-en="A research game about the hard choices war forces on us concerning animals — how the welfare of animals is weighed against human safety, livelihoods and the need for food, and what we owe animals when normal care is no longer possible." data-sv="Ett forskningsspel om de svåra val som kriget tvingar fram när det gäller djuren — hur djurens välfärd vägs mot människors säkerhet, försörjning och behovet av mat, och vad vi är skyldiga djuren när den vanliga omsorgen inte längre är möjlig.">A research game about the hard choices war forces on us concerning animals — how the welfare of animals is weighed against human safety, livelihoods and the need for food, and what we owe animals when normal care is no longer possible.</p>
+            <p class="hero-launch" data-en="Game launching 2028" data-sv="Spelsläpp 2028">Game launching 2028</p>
             <div class="hero-buttons">
-                <a href="#game" class="btn btn-ghost" data-en="About the game" data-sv="Om spelet">About the game</a>
-                <a href="contribute.html" class="btn btn-primary" data-en="Share your perspective" data-sv="Dela ditt perspektiv">Share your perspective</a>
+                <a href="#about" class="btn btn-ghost" data-en="About" data-sv="Om projektet">About</a>
+                <a href="#research" class="btn btn-ghost" data-en="Research" data-sv="Forskning">Research</a>
             </div>
         </div>
     </header>
 
-    <!-- ===== AIM ===== -->
-    <section class="aim">
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section">
         <div class="container">
-            <div class="section-eyebrow" data-en="Our Aim" data-sv="Vårt mål">Our Aim</div>
-            <p class="aim-statement" data-en="A game that gives the protection and welfare of animals a more natural place in war preparedness." data-sv="Ett spel som ger djurens skydd och välfärd en mer självklar plats i krigsberedskapen.">A game that gives the protection and welfare of animals a more natural place in war preparedness.</p>
-            <div class="aim-steps">
-                <div class="aim-step">
-                    <span class="aim-step-num">1</span>
-                    <h3 data-en="Find the dilemmas" data-sv="Hitta dilemmana">Find the dilemmas</h3>
-                    <p data-en="Identify the hard choices that arise when war strikes animal care — together with the people who would face them." data-sv="Identifiera de svåra val som uppstår när kriget slår mot djurhållningen — tillsammans med dem som skulle ställas inför dem.">Identify the hard choices that arise when war strikes animal care — together with the people who would face them.</p>
-                </div>
-                <div class="aim-step">
-                    <span class="aim-step-num">2</span>
-                    <h3 data-en="Build the game" data-sv="Bygga spelet">Build the game</h3>
-                    <p data-en="Turn the dilemmas into a game where you must weigh competing claims and make decisions that all come at a cost." data-sv="Göra dilemmana till ett spel där du måste väga konkurrerande anspråk och fatta beslut som alla har ett pris.">Turn the dilemmas into a game where you must weigh competing claims and make decisions that all come at a cost.</p>
-                </div>
-                <div class="aim-step">
-                    <span class="aim-step-num">3</span>
-                    <h3 data-en="Start the conversation" data-sv="Starta samtalet">Start the conversation</h3>
-                    <p data-en="Show how different people choose and why — and open a democratic conversation about what we owe animals in war." data-sv="Visa hur olika människor väljer och varför — och öppna för ett demokratiskt samtal om vad vi är skyldiga djuren i krig.">Show how different people choose and why — and open a democratic conversation about what we owe animals in war.</p>
+            <div class="section-eyebrow" data-en="About the Project" data-sv="Om projektet">About the Project</div>
+            <h2 class="section-heading" data-en="What is Herd &amp; Homeland?" data-sv="Vad är Herd &amp; Homeland?">What is Herd &amp; Homeland?</h2>
+
+            <div class="about-content">
+                <p class="lead" data-en="War confronts society with difficult ethical choices concerning animals. When feed, veterinary care and labour run short, animal keepers, authorities and citizens are forced into decisions without clear answers — decisions that peacetime preparedness planning has largely left unanswered." data-sv="Krig ställer samhället inför svåra etiska val som rör djuren. När foder, veterinärvård och arbetskraft inte räcker till tvingas djurhållare, myndigheter och medborgare till beslut utan tydliga svar — beslut som beredskapsplaneringen i fredstid i stort sett har lämnat obesvarade.">War confronts society with difficult ethical choices concerning animals. When feed, veterinary care and labour run short, animal keepers, authorities and citizens are forced into decisions without clear answers — decisions that peacetime preparedness planning has largely left unanswered.</p>
+
+                <p data-en="Herd &amp;amp; Homeland is a research project developing a serious computer game about these choices. In the game, players act as ethical advisors in a crisis command room, weighing the competing claims of the people around the table as war disrupts normal animal care. The project brings together animal welfare science, ethics and game development." data-sv="Herd &amp;amp; Homeland är ett forskningsprojekt som utvecklar ett seriöst datorspel om dessa val. I spelet agerar spelarna etiska rådgivare i ett krisledningsrum och väger anspråken från människorna runt bordet mot varandra när kriget stör den normala djurhållningen. Projektet förenar djurvälfärdsvetenskap, etik och spelutveckling.">Herd &amp; Homeland is a research project developing a serious computer game about these choices. In the game, players act as ethical advisors in a crisis command room, weighing the competing claims of the people around the table as war disrupts normal animal care. The project brings together animal welfare science, ethics and game development.</p>
+
+                <p data-en="The project is funded by &lt;a href='https://formas.se/en/start-page.html' target='_blank' rel='noopener'&gt;Formas&lt;/a&gt;, the Swedish Research Council for Sustainable Development, and runs from November 2026 to October 2028." data-sv="Projektet finansieras av &lt;a href='https://formas.se' target='_blank' rel='noopener'&gt;Formas&lt;/a&gt;, ett statligt forskningsråd för hållbar utveckling, och pågår från november 2026 till oktober 2028.">The project is funded by <a href="https://formas.se/en/start-page.html" target="_blank" rel="noopener">Formas</a>, the Swedish Research Council for Sustainable Development, and runs from November 2026 to October 2028.</p>
+            </div>
+
+            <div class="aim-box">
+                <h3 data-en="Project Aim" data-sv="Projektets mål">Project Aim</h3>
+                <p class="aim-statement" data-en="To give the protection and welfare of animals a more natural place in war preparedness — by building a game that lets us face these choices, and talk about them, before they happen for real." data-sv="Att ge djurens skydd och välfärd en mer självklar plats i krigsberedskapen — genom att bygga ett spel som låter oss möta valen, och samtala om dem, innan de inträffar på riktigt.">To give the protection and welfare of animals a more natural place in war preparedness — by building a game that lets us face these choices, and talk about them, before they happen for real.</p>
+                <div class="aim-steps">
+                    <div class="aim-step">
+                        <span class="aim-step-num">1</span>
+                        <h3 data-en="Find the dilemmas" data-sv="Hitta dilemmana">Find the dilemmas</h3>
+                        <p data-en="Identify the hard choices that arise when war strikes animal care — together with the people who would face them." data-sv="Identifiera de svåra val som uppstår när kriget slår mot djurhållningen — tillsammans med dem som skulle ställas inför dem.">Identify the hard choices that arise when war strikes animal care — together with the people who would face them.</p>
+                    </div>
+                    <div class="aim-step">
+                        <span class="aim-step-num">2</span>
+                        <h3 data-en="Build the game" data-sv="Bygga spelet">Build the game</h3>
+                        <p data-en="Turn the dilemmas into a game where players must weigh competing claims and make decisions that all come at a cost." data-sv="Göra dilemmana till ett spel där spelarna måste väga konkurrerande anspråk och fatta beslut som alla har ett pris.">Turn the dilemmas into a game where players must weigh competing claims and make decisions that all come at a cost.</p>
+                    </div>
+                    <div class="aim-step">
+                        <span class="aim-step-num">3</span>
+                        <h3 data-en="Start the conversation" data-sv="Starta samtalet">Start the conversation</h3>
+                        <p data-en="Show how different people choose and why — and open a democratic conversation about what we owe animals in war." data-sv="Visa hur olika människor väljer och varför — och öppna för ett demokratiskt samtal om vad vi är skyldiga djuren i krig.">Show how different people choose and why — and open a democratic conversation about what we owe animals in war.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ===== THE GAME ===== -->
+    <!-- ===== THE GAME (part of About) ===== -->
     <section id="game" class="section section-green">
         <div class="container">
             <div class="section-eyebrow light" data-en="The Game" data-sv="Spelet">The Game</div>
-            <h2 class="section-heading light" data-en="You are the ethical advisor in the crisis room" data-sv="Du är etisk rådgivare i krisledningsrummet">You are the ethical advisor in the crisis room</h2>
+            <h2 class="section-heading light" data-en="An ethical advisor in the crisis room" data-sv="Etisk rådgivare i krisledningsrummet">An ethical advisor in the crisis room</h2>
 
             <div class="game-layout">
                 <div class="game-text">
@@ -157,13 +171,15 @@
         </div>
     </section>
 
-    <!-- ===== THE DILEMMAS ===== -->
-    <section id="dilemmas" class="section">
+    <!-- ===== RESEARCH ===== -->
+    <section id="research" class="section section-alt">
         <div class="container">
-            <div class="section-eyebrow" data-en="The Dilemmas" data-sv="Dilemmana">The Dilemmas</div>
-            <h2 class="section-heading" data-en="Questions peacetime planning has left unanswered" data-sv="Frågor som fredstidens planering har lämnat obesvarade">Questions peacetime planning has left unanswered</h2>
-            <p class="section-intro" data-en="War sweeps away the conditions for ordinary animal care. The game is built around the kind of questions society would then have to answer — questions like these:" data-sv="Krig slår undan förutsättningarna för den vanliga djurhållningen. Spelet byggs kring den sortens frågor som samhället då skulle behöva besvara — frågor som dessa:">War sweeps away the conditions for ordinary animal care. The game is built around the kind of questions society would then have to answer — questions like these:</p>
+            <div class="section-eyebrow" data-en="Research" data-sv="Forskning">Research</div>
+            <h2 class="section-heading" data-en="What the game will show" data-sv="Vad spelet kommer att visa">What the game will show</h2>
+            <p class="section-intro" data-en="Herd &amp;amp; Homeland is both a game and a research instrument. Behind it lies a systematic mapping of the dilemmas that arise when war disrupts animal care — and when the game is played, it captures how people reason about them." data-sv="Herd &amp;amp; Homeland är både ett spel och ett forskningsinstrument. Bakom spelet ligger en systematisk kartläggning av de dilemman som uppstår när kriget stör djurhållningen — och när spelet spelas fångar det hur människor resonerar kring dem.">Herd &amp; Homeland is both a game and a research instrument. Behind it lies a systematic mapping of the dilemmas that arise when war disrupts animal care — and when the game is played, it captures how people reason about them.</p>
 
+            <h3 class="sub-heading" data-en="The dilemmas" data-sv="Dilemmana">The dilemmas</h3>
+            <p class="sub-intro" data-en="The project maps the ethical dilemmas concerning animal care in war, based on previous research and Swedish regulations and preparedness plans, and tests them in interviews and workshops with people working in animal care, animal protection and crisis preparedness. They include questions like these:" data-sv="Projektet kartlägger de etiska dilemman som rör djuromsorg i krig, utifrån tidigare forskning samt svenska regelverk och beredskapsplaner, och prövar dem i intervjuer och workshops med personer som arbetar med djuromsorg, djurskydd och krisberedskap. Bland dem finns frågor som dessa:">The project maps the ethical dilemmas concerning animal care in war, based on previous research and Swedish regulations and preparedness plans, and tests them in interviews and workshops with people working in animal care, animal protection and crisis preparedness. They include questions like these:</p>
             <div class="qcards">
                 <figure class="qcard">
                     <div class="qcard-img"><img src="images/panel-cow.jpg" alt="" loading="lazy"></div>
@@ -179,80 +195,87 @@
                 </figure>
             </div>
 
-            <p class="dilemmas-outro" data-en="Every decision about animals also touches other things at stake — the safety of those who care for them, farmers' livelihoods and society's need for food. In the game, all of it is on the table at once." data-sv="Varje beslut om djuren berör också annat som står på spel — säkerheten för dem som tar hand om djuren, lantbrukarnas försörjning och samhällets behov av mat. I spelet ligger allt detta på bordet samtidigt.">Every decision about animals also touches other things at stake — the safety of those who care for them, farmers' livelihoods and society's need for food. In the game, all of it is on the table at once.</p>
-        </div>
-    </section>
 
-    <!-- ===== HOW IT IS MADE ===== -->
-    <section id="making" class="section section-alt">
-        <div class="container">
-            <div class="section-eyebrow" data-en="Making the Game" data-sv="Så görs spelet">Making the Game</div>
-            <h2 class="section-heading" data-en="Built together with those who would face the choices" data-sv="Byggt tillsammans med dem som skulle ställas inför valen">Built together with those who would face the choices</h2>
-            <p class="section-intro" data-en="The game brings together animal welfare science, ethics and game development. The dilemmas are tested and developed in interviews and workshops with people who work with animal care, animal protection and crisis preparedness — so that what happens in the game is true to reality." data-sv="Spelet förenar djurvälfärdsvetenskap, etik och spelutveckling. Dilemmana prövas och utvecklas i intervjuer och workshops med personer som arbetar med djuromsorg, djurskydd och krisberedskap — så att det som händer i spelet är verklighetstroget.">The game brings together animal welfare science, ethics and game development. The dilemmas are tested and developed in interviews and workshops with people who work with animal care, animal protection and crisis preparedness — so that what happens in the game is true to reality.</p>
-
-            <ol class="steps">
-                <li class="step current">
-                    <span class="step-time" data-en="Nov 2026 – Mar 2027" data-sv="Nov 2026 – mars 2027">Nov 2026 – Mar 2027</span>
-                    <span class="tl-badge" data-en="Now" data-sv="Nu">Now</span>
-                    <h4 data-en="Finding the dilemmas" data-sv="Dilemmana tas fram">Finding the dilemmas</h4>
-                    <p data-en="Drawing on previous research and Swedish regulations and preparedness plans." data-sv="Utifrån tidigare forskning samt svenska regelverk och beredskapsplaner.">Drawing on previous research and Swedish regulations and preparedness plans.</p>
-                </li>
-                <li class="step">
-                    <span class="step-time" data-en="Mar – Aug 2027" data-sv="Mars – aug 2027">Mar – Aug 2027</span>
-                    <h4 data-en="Testing with practitioners" data-sv="Prövas med yrkesverksamma">Testing with practitioners</h4>
-                    <p data-en="Interviews and workshops turn the dilemmas into realistic scenarios." data-sv="Intervjuer och workshops gör dilemmana till realistiska scenarier.">Interviews and workshops turn the dilemmas into realistic scenarios.</p>
-                </li>
-                <li class="step">
-                    <span class="step-time" data-en="Apr 2027 – Feb 2028" data-sv="April 2027 – feb 2028">Apr 2027 – Feb 2028</span>
-                    <h4 data-en="Building the game" data-sv="Spelet byggs">Building the game</h4>
-                    <p data-en="Scenario writing, design, development and playtesting." data-sv="Manus, design, utveckling och speltester.">Scenario writing, design, development and playtesting.</p>
-                </li>
-                <li class="step">
-                    <span class="step-time">2028</span>
-                    <h4 data-en="Release &amp;amp; conversation" data-sv="Lansering &amp;amp; samtal">Release &amp; conversation</h4>
-                    <p data-en="The game is released free to the public and to the groups concerned." data-sv="Spelet släpps fritt för allmänheten och berörda grupper.">The game is released free to the public and to the groups concerned.</p>
-                </li>
-            </ol>
-        </div>
-    </section>
-
-    <!-- ===== THE CONVERSATION ===== -->
-    <section id="conversation" class="section">
-        <div class="container">
-            <div class="section-eyebrow" data-en="The Conversation" data-sv="Samtalet">The Conversation</div>
-            <h2 class="section-heading" data-en="A game that starts a conversation" data-sv="Ett spel som startar ett samtal">A game that starts a conversation</h2>
-            <p class="section-intro" data-en="Herd &amp;amp; Homeland is not only played — it is talked about. By making visible how different people choose and why, the game becomes a shared starting point for discussing what we owe animals in war." data-sv="Herd &amp;amp; Homeland ska inte bara spelas — det ska pratas om. Genom att synliggöra hur olika människor väljer och varför blir spelet en gemensam utgångspunkt för samtal om vad vi är skyldiga djuren i krig.">Herd &amp; Homeland is not only played — it is talked about. By making visible how different people choose and why, the game becomes a shared starting point for discussing what we owe animals in war.</p>
-
-            <div class="uses">
-                <div class="use">
-                    <svg class="use-icon" viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 9h8M8 13h5"/></svg>
-                    <h3 data-en="For the public and decision-makers" data-sv="För allmänhet och beslutsfattare">For the public and decision-makers</h3>
-                    <p data-en="See how farmers, vets, authorities and fellow citizens reason — a basis for a democratic conversation about animals in war." data-sv="Se hur lantbrukare, veterinärer, myndigheter och andra medborgare resonerar — ett underlag för ett demokratiskt samtal om djuren i krig.">See how farmers, vets, authorities and fellow citizens reason — a basis for a democratic conversation about animals in war.</p>
+            <h3 class="sub-heading" data-en="What comes out of the game" data-sv="Vad spelet ger">What comes out of the game</h3>
+            <div class="research-grid">
+                <div class="research-card">
+                    <h3 data-en="How people prioritise" data-sv="Hur människor prioriterar">How people prioritise</h3>
+                    <p data-en="The game records the decisions players make and how they weigh animal welfare against other values. This lets us compare how professionals in war preparedness and citizens reason — and how priorities shift as the war goes on." data-sv="Spelet registrerar de beslut spelarna fattar och hur de väger djurens välfärd mot andra värden. Det gör det möjligt att jämföra hur yrkesverksamma inom krigsberedskapen och medborgare resonerar — och hur prioriteringarna förskjuts ju längre kriget pågår.">The game records the decisions players make and how they weigh animal welfare against other values. This lets us compare how professionals in war preparedness and citizens reason — and how priorities shift as the war goes on.</p>
                 </div>
-                <div class="use">
-                    <svg class="use-icon" viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 8l10-5 10 5-10 5z"/><path d="M6 10v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/><path d="M22 8v6"/></svg>
-                    <h3 data-en="In education and preparedness exercises" data-sv="I utbildning och beredskapsövningar">In education and preparedness exercises</h3>
-                    <p data-en="Students and professionals can meet the dilemmas — and each other's perspectives — before they face them for real." data-sv="Studenter och yrkesverksamma kan möta dilemmana — och varandras perspektiv — innan de står inför dem på riktigt.">Students and professionals can meet the dilemmas — and each other's perspectives — before they face them for real.</p>
+                <div class="research-card">
+                    <h3 data-en="Open data" data-sv="Öppna data">Open data</h3>
+                    <p data-en="The game and its anonymised data will be made freely available in line with the FAIR principles. Other researchers can build on the platform with new dilemmas, more animals, other crises and other countries." data-sv="Spelet och dess avidentifierade data görs fritt tillgängliga i enlighet med FAIR-principerna. Andra forskare kan bygga vidare på plattformen med nya dilemman, fler djur, andra kriser och andra länder.">The game and its anonymised data will be made freely available in line with the FAIR principles. Other researchers can build on the platform with new dilemmas, more animals, other crises and other countries.</p>
                 </div>
-                <div class="use">
-                    <svg class="use-icon" viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
-                    <h3 data-en="As an open platform" data-sv="Som en öppen plattform">As an open platform</h3>
-                    <p data-en="The game and its anonymised data are made openly available, so the platform can grow with new dilemmas, more animals and other crises." data-sv="Spelet och dess avidentifierade data görs öppet tillgängliga, så att plattformen kan växa med nya dilemman, fler djur och andra kriser.">The game and its anonymised data are made openly available, so the platform can grow with new dilemmas, more animals and other crises.</p>
+                <div class="research-card">
+                    <h3 data-en="A basis for policy and preparedness" data-sv="Underlag för policy och beredskap">A basis for policy and preparedness</h3>
+                    <p data-en="By showing how different actors reason and why, the results give decision-makers and authorities a basis for including animal protection and welfare in war preparedness." data-sv="Genom att visa hur olika aktörer resonerar och varför ger resultaten beslutsfattare och myndigheter ett underlag för att inkludera djurskydd och djurvälfärd i krigsberedskapen.">By showing how different actors reason and why, the results give decision-makers and authorities a basis for including animal protection and welfare in war preparedness.</p>
+                </div>
+                <div class="research-card">
+                    <h3 data-en="A tool for education and conversation" data-sv="Ett verktyg för utbildning och samtal">A tool for education and conversation</h3>
+                    <p data-en="Students and professionals can meet the dilemmas before they face them for real, and the visualised results open a democratic conversation about what we owe animals in war." data-sv="Studenter och yrkesverksamma kan möta dilemmana innan de står inför dem på riktigt, och de visualiserade resultaten öppnar för ett demokratiskt samtal om vad vi är skyldiga djuren i krig.">Students and professionals can meet the dilemmas before they face them for real, and the visualised results open a democratic conversation about what we owe animals in war.</p>
                 </div>
             </div>
 
-            <blockquote class="pull-quote">
-                <p data-en="By having to weigh the claims of others before deciding, players practise ethical humility — taking seriously perspectives unlike their own, even where disagreement remains." data-sv="Genom att behöva väga andras anspråk innan de beslutar övar spelarna etisk ödmjukhet — att ta perspektiv som skiljer sig från de egna på allvar, även där oenigheten kvarstår.">By having to weigh the claims of others before deciding, players practise ethical humility — taking seriously perspectives unlike their own, even where disagreement remains.</p>
-            </blockquote>
+            <div class="phases">
+                <h3 class="phases-heading" data-en="Research Phases" data-sv="Forskningsfaser">Research Phases</h3>
+                <div class="phases-track"><div class="phases-progress" style="width: 6%"></div></div>
+                <div class="phases-grid">
+                    <div class="phase current">
+                        <div class="phase-marker"></div>
+                        <div class="phase-number"><span data-en="Phase 1" data-sv="Fas 1">Phase 1</span> <span class="phase-badge" data-en="Current" data-sv="Pågår">Current</span></div>
+                        <div class="phase-time" data-en="Nov 2026 – Mar 2027" data-sv="Nov 2026 – mars 2027">Nov 2026 – Mar 2027</div>
+                        <h4 data-en="Mapping the Dilemmas" data-sv="Kartläggning av dilemmana">Mapping the Dilemmas</h4>
+                        <p data-en="A review of research on animal welfare, animal ethics and animal protection during war, and of Swedish regulations and preparedness plans." data-sv="En genomgång av forskning om djurvälfärd, djuretik och djurskydd vid krig samt av svenska regelverk och beredskapsplaner.">A review of research on animal welfare, animal ethics and animal protection during war, and of Swedish regulations and preparedness plans.</p>
+                    </div>
+                    <div class="phase future">
+                        <div class="phase-marker"></div>
+                        <div class="phase-number" data-en="Phase 2" data-sv="Fas 2">Phase 2</div>
+                        <div class="phase-time" data-en="Mar – Aug 2027" data-sv="Mars – aug 2027">Mar – Aug 2027</div>
+                        <h4 data-en="Interviews &amp;amp; Workshops" data-sv="Intervjuer &amp;amp; workshops">Interviews &amp; Workshops</h4>
+                        <p data-en="Interviews and focus groups with practitioners in animal welfare and war preparedness validate the dilemmas and turn them into realistic scenarios." data-sv="Intervjuer och fokusgrupper med yrkesverksamma inom djuromsorg och krisberedskap prövar dilemmana och gör dem till realistiska scenarier.">Interviews and focus groups with practitioners in animal welfare and war preparedness validate the dilemmas and turn them into realistic scenarios.</p>
+                    </div>
+                    <div class="phase future">
+                        <div class="phase-marker"></div>
+                        <div class="phase-number" data-en="Phase 3" data-sv="Fas 3">Phase 3</div>
+                        <div class="phase-time" data-en="Apr 2027 – Feb 2028" data-sv="April 2027 – feb 2028">Apr 2027 – Feb 2028</div>
+                        <h4 data-en="Game Development &amp;amp; Playtesting" data-sv="Spelutveckling &amp;amp; speltester">Game Development &amp; Playtesting</h4>
+                        <p data-en="The scenarios are built into the game through scenario writing, design, development and playtesting until it is ready for data collection." data-sv="Scenarierna byggs in i spelet genom manus, design, utveckling och speltester tills spelet håller för datainsamling.">The scenarios are built into the game through scenario writing, design, development and playtesting until it is ready for data collection.</p>
+                    </div>
+                    <div class="phase future">
+                        <div class="phase-marker"></div>
+                        <div class="phase-number" data-en="Phase 4" data-sv="Fas 4">Phase 4</div>
+                        <div class="phase-time" data-en="Feb – Oct 2028" data-sv="Feb – okt 2028">Feb – Oct 2028</div>
+                        <h4 data-en="Game Release &amp;amp; Data Collection" data-sv="Spelsläpp &amp;amp; datainsamling">Game Release &amp; Data Collection</h4>
+                        <p data-en="The game is released to the public and to the groups concerned. The data are analysed and the results shared openly, together with visualisations of how players reasoned." data-sv="Spelet släpps för allmänheten och berörda grupper. Data analyseras och resultaten delas öppet, tillsammans med visualiseringar av hur spelarna resonerade.">The game is released to the public and to the groups concerned. The data are analysed and the results shared openly, together with visualisations of how players reasoned.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="research-coming">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                <p data-en="Presentations, publications and research data will be published here as the project progresses." data-sv="Presentationer, publikationer och forskningsdata kommer att publiceras här allteftersom projektet fortskrider.">Presentations, publications and research data will be published here as the project progresses.</p>
+            </div>
+
+            <div class="contact-card research-contact">
+                <img src="images/joel.webp" alt="Joel Martinsson" loading="lazy">
+                <div>
+                    <h3 data-en="Want to contribute your perspective?" data-sv="Vill du bidra med ditt perspektiv?">Want to contribute your perspective?</h3>
+                    <p class="title" data-en="Do you work with animals, animal protection or preparedness — as a farmer, veterinarian, zoo or shelter worker, animal owner, at an authority or in civil defence? We would like to hear from you. Get in touch with PI Joel Martinsson." data-sv="Arbetar du med djur, djurskydd eller beredskap — som lantbrukare, veterinär, på djurpark eller djurhem, som djurägare, på en myndighet eller inom civilförsvaret? Vi vill gärna höra från dig. Kontakta projektledare Joel Martinsson.">Do you work with animals, animal protection or preparedness — as a farmer, veterinarian, zoo or shelter worker, animal owner, at an authority or in civil defence? We would like to hear from you. Get in touch with PI Joel Martinsson.</p>
+                    <p class="email"><a href="mailto:joel.martinsson@lnu.se">joel.martinsson@lnu.se</a></p>
+                    <div class="contact-buttons">
+                        <a class="btn btn-primary" href="mailto:joel.martinsson@lnu.se?subject=Herd%20%26%20Homeland" data-en="E-mail Joel" data-sv="Mejla Joel">E-mail Joel</a>
+                        <a class="btn btn-dark" href="contribute.html" data-en="How to contribute" data-sv="Så kan du medverka">How to contribute</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- ===== TEAM ===== -->
-    <section id="team" class="section section-alt">
+    <section id="team" class="section">
         <div class="container">
             <div class="section-eyebrow" data-en="The Team" data-sv="Teamet">The Team</div>
-            <h2 class="section-heading" data-en="The project team" data-sv="Projektteamet">The project team</h2>
-            <p class="section-intro" data-en="Herd &amp;amp; Homeland is made by a team that brings together ethics, animal welfare science and game development, at Linnaeus University and Blekinge Institute of Technology." data-sv="Herd &amp;amp; Homeland görs av ett team som förenar etik, djurvälfärdsvetenskap och spelutveckling, vid Linnéuniversitetet och Blekinge Tekniska Högskola.">Herd &amp; Homeland is made by a team that brings together ethics, animal welfare science and game development, at Linnaeus University and Blekinge Institute of Technology.</p>
+            <h2 class="section-heading" data-en="Research Team" data-sv="Forskarteamet">Research Team</h2>
             <div class="team-row">
                 <div class="member">
                     <div class="member-img"><img src="images/daiana.webp" alt="Daiana de Oliveira" loading="lazy"></div>
@@ -285,18 +308,7 @@
                     <p class="org" data-en="Blekinge Institute of Technology" data-sv="Blekinge Tekniska Högskola">Blekinge Institute of Technology</p>
                 </a>
             </div>
-            <p class="team-contact" data-en="Questions about the project? Write to &lt;a href='mailto:joel.martinsson@lnu.se'&gt;joel.martinsson@lnu.se&lt;/a&gt;." data-sv="Frågor om projektet? Skriv till &lt;a href='mailto:joel.martinsson@lnu.se'&gt;joel.martinsson@lnu.se&lt;/a&gt;.">Questions about the project? Write to <a href="mailto:joel.martinsson@lnu.se">joel.martinsson@lnu.se</a>.</p>
-        </div>
-    </section>
-
-    <!-- ===== CTA ===== -->
-    <section class="cta-band">
-        <div class="container cta-inner">
-            <div>
-                <h2 data-en="Help us shape the dilemmas" data-sv="Hjälp oss forma dilemmana">Help us shape the dilemmas</h2>
-                <p data-en="Do you work with animals, animal protection or preparedness? Farmers, veterinarians, zoo and shelter staff, animal owners, authorities and civil defence — your experience can make the game more true to reality." data-sv="Arbetar du med djur, djurskydd eller beredskap? Lantbrukare, veterinärer, personal på djurparker och djurhem, djurägare, myndigheter och civilförsvar — dina erfarenheter kan göra spelet mer verklighetstroget.">Do you work with animals, animal protection or preparedness? Farmers, veterinarians, zoo and shelter staff, animal owners, authorities and civil defence — your experience can make the game more true to reality.</p>
-            </div>
-            <a href="contribute.html" class="btn btn-primary" data-en="Share your perspective" data-sv="Dela ditt perspektiv">Share your perspective</a>
+            <p class="team-contact" data-en="For questions about the project, please contact PI Joel Martinsson at &lt;a href='mailto:joel.martinsson@lnu.se'&gt;joel.martinsson@lnu.se&lt;/a&gt;." data-sv="För frågor om projektet, kontakta projektledare Joel Martinsson på &lt;a href='mailto:joel.martinsson@lnu.se'&gt;joel.martinsson@lnu.se&lt;/a&gt;.">For questions about the project, please contact PI Joel Martinsson at <a href="mailto:joel.martinsson@lnu.se">joel.martinsson@lnu.se</a>.</p>
         </div>
     </section>
 
@@ -317,9 +329,9 @@
                 <div class="footer-col">
                     <h4 data-en="Sections" data-sv="Sektioner">Sections</h4>
                     <ul>
-                        <li><a href="#game" data-en="The Game" data-sv="Spelet">The Game</a></li>
-                        <li><a href="#dilemmas" data-en="The Dilemmas" data-sv="Dilemmana">The Dilemmas</a></li>
-                        <li><a href="#conversation" data-en="The Conversation" data-sv="Samtalet">The Conversation</a></li>
+                        <li><a href="#home" data-en="Home" data-sv="Hem">Home</a></li>
+                        <li><a href="#about" data-en="About" data-sv="Om projektet">About</a></li>
+                        <li><a href="#research" data-en="Research" data-sv="Forskning">Research</a></li>
                         <li><a href="#team" data-en="Team" data-sv="Teamet">Team</a></li>
                         <li><a href="contribute.html" data-en="Contribute" data-sv="Medverka">Contribute</a></li>
                     </ul>
@@ -338,6 +350,6 @@
         </div>
     </footer>
 
-    <script src="js/main.js?v=3"></script>
+    <script src="js/main.js?v=4"></script>
 </body>
 </html>
